@@ -120,7 +120,10 @@ void InitDuree (CVDuree & VDuree)
 void ShowCVDuree (const CVDuree & VDuree)
 {
     for (Iter_t it (VDuree.begin()); it != VDuree.end(); ++it)
+    {
         it -> display();
+        cout << " = " << it -> getDuree() << endl;
+    }
 }
 
 int main (void)

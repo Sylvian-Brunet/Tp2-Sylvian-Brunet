@@ -111,7 +111,5 @@ namespace
 int main (void)
 {
     testDuree ();
-
     return 0;
-
 } // main()
